@@ -1,0 +1,38 @@
+A new Marlin beta version is available. 1 version for Gen6, Ultimaker, RAMPS and SL.
+
+You can find this version in:
+https://github.com/ErikZalm/Marlin/tree/Marlin_v1
+
+We also made a tag that you can download.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is a light version of Marlin for non gen6 boards.
+It has no interrupt based temperature protection and extruder advance.
+
+This firmware is a mashup between Sprinter, grbl and many original parts.
+ (https://github.com/kliment/Sprinter)
+ (https://github.com/simen/grbl/tree)
+
+Features:
+ - Interrupt based movement with real linear acceleration
+ - High steprate
+ - Look ahead (Keep the speed high when possible. High cornering speed)
+
+
+
